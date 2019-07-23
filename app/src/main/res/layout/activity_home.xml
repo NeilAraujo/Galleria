@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_topbar">
+
+            <include layout="@layout/snippet_top_tabs"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/home_topbar"
+            android:id="@+id/home_center">
+
+            <include layout="@layout/layout_viewpager"/>
+
+        </RelativeLayout>
+
+
+
+        <include layout="@layout/snippet_bottom_nav"/>
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

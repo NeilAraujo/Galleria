@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Collection"
+        android:id="@+id/menu_photos"
+        android:icon="@drawable/ic_photos"/>
+
+    <item
+        android:title="Timeline"
+        android:id="@+id/menu_timeline"
+        android:icon="@drawable/ic_timeline"/>
+
+    <item
+        android:title="Favourite"
+        android:id="@+id/menu_favourite"
+        android:icon="@drawable/ic_favourite"/>
+
+    <item
+        android:title="Settings"
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/ic_settings"/>
+
+</menu>
